@@ -1,8 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1744232118" />
-    <testcase name="test_rtype_operations" classname="test_alu_control" file="/home/zer02c/Documents/Git-Hub/Tang-Nano-9k-riscv-sorftcore/sim/alu_control/test_alu_control.py" lineno="10" time="0.0031518936157226562" sim_time_ns="6.000001" ratio_time="1903.6178664375188" />
-    <testcase name="test_lw_sw" classname="test_alu_control" file="/home/zer02c/Documents/Git-Hub/Tang-Nano-9k-riscv-sorftcore/sim/alu_control/test_alu_control.py" lineno="47" time="0.0009152889251708984" sim_time_ns="1.0000010000000001" ratio_time="1092.5522777556657" />
-    <testcase name="test_branch" classname="test_alu_control" file="/home/zer02c/Documents/Git-Hub/Tang-Nano-9k-riscv-sorftcore/sim/alu_control/test_alu_control.py" lineno="57" time="0.00063323974609375" sim_time_ns="1.0000009999999993" ratio_time="1579.182302072288" />
-  </testsuite>
-</testsuites>
