@@ -1,0 +1,4 @@
+Apycula==0.18
+cocotb==1.9.2
+crc==7.1.0
+find_libpython==0.4.0
