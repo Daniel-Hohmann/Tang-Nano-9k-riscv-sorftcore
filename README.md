@@ -1,5 +1,7 @@
 # Tang-Nano-9k-riscv-sorftcore
-a softcore on risc v basis for the Tang nano 9k in vhdl
+a basic softcore on risc v basis for the Tang nano 9k in vhdl.
+
+The Project is currently in work its not finish at all.
 
 # Install
 the Installation steps are made for nixos !!!
