@@ -1,0 +1,7 @@
+v 4
+file "/home/zer02c/Documents/Git-Hub/Tang-Nano-9k-riscv-sorftcore/sim/alu_control/" "alu_control_tb.vhd" "f27ac24d329b5c756dac3bab3c52d06f4d251973" "20250409205517.593":
+  entity alu_control_tb at 1( 0) + 0 on 13;
+  architecture rtl of alu_control_tb at 7( 82) + 0 on 14;
+file "/home/zer02c/Documents/Git-Hub/Tang-Nano-9k-riscv-sorftcore/sim/alu_control/" "../../src/alu/alu_control.vhd" "c1b43d202316a2b8d843d59e26f6e2dfff57f394" "20250409205517.488":
+  entity alu_control at 1( 0) + 0 on 11;
+  architecture rtl of alu_control at 13( 342) + 0 on 12;

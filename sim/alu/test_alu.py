@@ -150,4 +150,3 @@ async def test_random_operations(dut):
 
         actual = dut.result.value.integer & 0xFFFFFFFF
         assert actual == expected, f"Op {bin(s)}: {x} op {y} = {expected}, aber war {actual}"
-
