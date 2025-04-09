@@ -15,7 +15,7 @@ begin
     process(alu_op, funct3, funct7)
     begin
         case alu_op is
-            when "10" =>  -- R-Typ Instruktionen
+            when "10" =>  -- R-Typ Instructions
                 case funct3 is
                     when "000" =>
                         if funct7 = "0000000" then
@@ -37,10 +37,10 @@ begin
                         alu_control <= (others => '0');
                 end case;
 
-            when "00" =>  -- Load/Store (ADD für Adressberechnung)
+            when "00" =>  -- Load/Store (ADD for adress calculation)
                 alu_control <= "0000";  -- ADD
 
-            when "01" =>  -- Branch (SUB für Vergleich)
+            when "01" =>  -- Branch (SUB for comprehantion)
                 alu_control <= "0001";  -- SUB
 
             when others =>
