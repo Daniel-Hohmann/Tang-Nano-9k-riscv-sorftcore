@@ -1,0 +1,6 @@
+/__pycache__
+/sim_build
+*.o
+*.csv
+*.xml
+alu_tb
