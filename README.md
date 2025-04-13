@@ -18,5 +18,9 @@ nix-shell
 after that every tool u need and all dependencies are installed and u are know in a python venv.
 
 # To Fix
-- currently the `ALU_OP_SLT` and `ALU_OP_SRL` Operations in `alu.vhd` are not working right.
-- currently the `alu_control` lightly because of the `alu.vhd` haha but it passes 3 out of 6.
+- currently the `ALU_OP_SLT` and `ALU_OP_SRL` Operations in `alu.vhd` are not working right. [half fixed]
+- currently the `alu_control` lightly because of the `alu.vhd` haha but it passes 3 out of 6. [also half fixed]
+
+
+# working
+currently working on the `register_file.vhd`
